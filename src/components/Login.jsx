@@ -52,20 +52,32 @@ const Login = () => {
 
                             {register && (
                                 <div className="floating-label-group">
-                                    <input type="text" id="username" className="form-control txt border-0" autoFocus required />
-                                    <label className="floating-label">Name</label>
+                                    <input type="email" id="username" className="form-control txt border-0" autoFocus required />
+                                    <label className="floating-label">Email</label>
                                 </div>
                             )}
                             {register && (
                                 <div className="floating-label-group">
-                                    <input type="text" id="username" className="form-control txt border-0" autoFocus required />
-                                    <label className="floating-label">Username</label>
+                                    <input type="text" id="username" className="form-control txt border-0" required />
+                                    <label className="floating-label">Password</label>
+                                </div>
+                            )}
+                            {register && (
+                                <div className="floating-label-group">
+                                    <input type="text" id="username" className="form-control txt border-0" required />
+                                    <label className="floating-label">Confirm-Password</label>
                                 </div>
                             )}
 
-                            <div className="text-end">
-                                <Link className="text-black" >Forgot password?</Link>
-                            </div><br />
+                            {!register && (<>
+                                <div className="text-end">
+                                    <Link className="text-black" >Forgot password?</Link>
+                                </div>
+                                <br />
+                            </>
+
+                            )}
+
                             <div className="py-4">
                                 <Button className="bg-dark px-5 rounded-5">{!register ? "Sign in" : "Sign up"}</Button>
                             </div>
