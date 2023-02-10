@@ -1,10 +1,11 @@
-body{
+body {
   margin-bottom: -10px !important;
 }
 
-.App {
+.App,
+.bg {
   text-align: center;
-  background-color: #f0eeeb;
+  background-color: #f0eeeb !important;
 }
 
 .navbar-expand-lg,
@@ -127,6 +128,7 @@ Button.bg-dark:hover {
 
 .nav-link.active {
   background-color: #d4b689 !important;
+  border-radius: 0 !important;
 }
 
 .nav-link {
@@ -160,6 +162,11 @@ Button.bg-dark:hover {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   padding: 0 20px;
+}
+
+#parent:hover {
+  background-color: #f3f0ee;
+  color: #000;
 }
 
 .tooltip-inner {
@@ -202,42 +209,26 @@ ul.list-shape-bullets li::before {
 
 ul.list-shape-bullets li:nth-child(2n)::before {
   background: url(https://web-assets.zendesk.com/images/p-pricing/2021/bullet-square.svg) center center/contain no-repeat transparent;
-  /* content: "";
-  display: block;
-  height: 1em;
-  left: 0;
-  position: absolute;
-  top: 0.1em; */
   width: 1em;
 }
 
 ul.list-shape-bullets li:nth-child(3n)::before {
   background: url(https://web-assets.zendesk.com/images/p-pricing/2021/bullet-triangle.svg) center center/contain no-repeat transparent;
-  /* content: "";
-  display: block;
-  height: 1em;
-  left: 0;
-  position: absolute;
-  top: 0.1em; */
   width: 1em;
 }
 
 ul.list-shape-bullets li:nth-child(4n)::before {
   background: url(https://web-assets.zendesk.com/images/p-pricing/2021/bullet-quarter.svg) center center/contain no-repeat transparent;
-  /* content: "";
-  display: block;
-  height: 1em;
-  left: 0;
-  position: absolute;
-  top: 0.1em; */
   width: 1em;
 }
 
-li, .ls {
+li,
+.ls {
   list-style-type: none;
 }
 
-.line, .ls {
+.line,
+.ls {
   text-decoration: none;
   color: black;
 }
@@ -245,6 +236,47 @@ li, .ls {
 .line:hover {
   border-bottom: 1px solid black;
 }
+
+.accordion-button:not(.collapsed) {
+  color: #0e171b !important;
+  background-color: white !important;
+  border: none !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+.accordion-body {
+  outline: #0e171b;
+  border-bottom: 1px solid #ccc;
+}
+
+.accordion,
+.accordion-item,
+.accordion-header {
+  --bs-accordion-bg: #f0eeeb !important;
+  border: none !important;
+  border-bottom: 1px solid #ccc !important;
+  padding: 0 !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #0e171b !important;
+  background-color: #f0eeeb !important;
+  border-bottom: 1px solid #ccc !important;
+}
+
+a.text-black.hovered:hover {
+  transform: scale(0.8, 0.8);
+  transition: all 0.5s ease;
+  text-decoration: none;
+}
+
+
+
+
+
 
 
 

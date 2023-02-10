@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
     return <>
-        <Container className="mt-5 pb-0">
-            <Row>
+        <Container fluid className="mt-5 pb-0" style={{backgroundColor: "#f8f9f9"}}>
+            <Row className="pt-5">
                 <Col lg={3} md={3} sm={3} >
                     <div>
                         <ul className="text-start list-style-type-none">
@@ -76,11 +76,11 @@ const Footer = () => {
                     </div>
                 </Col>
                 <Col lg={4} md={4}>
-                    <i class="bi bi-twitter fs-2 p-2"></i>
-                    <i class="bi bi-facebook fs-2 p-2"></i>
-                    <i class="bi bi-linkedin fs-2 p-2"></i>
-                    <i class="bi bi-youtube fs-2 p-2"></i>
-                    <i class="bi bi-instagram fs-2 p-2"></i>
+                    <i className="bi bi-twitter fs-2 p-2"></i>
+                    <i className="bi bi-facebook fs-2 p-2"></i>
+                    <i className="bi bi-linkedin fs-2 p-2"></i>
+                    <i className="bi bi-youtube fs-2 p-2"></i>
+                    <i className="bi bi-instagram fs-2 p-2"></i>
                 </Col>
             </Row>
 

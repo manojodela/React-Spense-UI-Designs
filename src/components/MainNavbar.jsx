@@ -1,5 +1,5 @@
 import { Button, Container, Nav, NavbarBrand } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, redirect } from "react-router-dom";
 import Navbar from 'react-bootstrap/Navbar';
 const MainNavbar = () => {
     return <>
@@ -15,7 +15,7 @@ const MainNavbar = () => {
                     </Nav>
                     <Nav className="ms-auto">
                         <Link to="/login" className="link">Login</Link>
-                        <Button className="bg-dark border-0 btn" >Get Started</Button>
+                        <Link to="/pricing" className="bg-dark border-0 btn text-white btn-green" >Get Started</Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
