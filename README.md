@@ -10,6 +10,9 @@
 <img src="https://github.com/manojodela/React-Spense-UI-Designs/blob/main/UI-screenshot/price1.png" alt="price1" />
 <h3>---------video------------</h3>
 
+<img src="https://github.com/manojodela/React-Spense-UI-Designs/blob/main/UI-screenshot/video.gif
+" alt="description of gif" /> 
+
 https://github.com/manojodela/React-Spense-UI-Designs/blob/main/UI-screenshot/video.gif
 
 
