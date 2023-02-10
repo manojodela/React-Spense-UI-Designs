@@ -13,7 +13,7 @@
 <img src="https://github.com/manojodela/React-Spense-UI-Designs/blob/main/UI-screenshot/video.gif
 " alt="description of gif" /> 
 
-https://github.com/manojodela/React-Spense-UI-Designs/blob/main/UI-screenshot/video.gif
+![alt text]https://github.com/manojodela/React-Spense-UI-Designs/blob/main/UI-screenshot/video.gif
 
 
 
