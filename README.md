@@ -4,11 +4,13 @@
 <img src="https://github.com/manojodela/React-Spense-UI-Designs/blob/main/UI-screenshot/login.png" alt="login" />
 <h3>---------HomePage----------</h3>
 <img src="https://github.com/manojodela/React-Spense-UI-Designs/blob/main/UI-screenshot/home.png" alt="home" />
-<h3>---------PricePage----------</h3>
+<h3>---------Price for everyone Page----------</h3>
 <img src="https://github.com/manojodela/React-Spense-UI-Designs/blob/main/UI-screenshot/price.png" alt="price" />
+<h3>---------Price for enterprises Page----------</h3>
+<img src="https://github.com/manojodela/React-Spense-UI-Designs/blob/main/UI-screenshot/price1.png" alt="price1" />
 <h3>---------video------------</h3>
 <video width="600" controls>
-  <source src="https://github.com/manojodela/React-Spense-UI-Designs/blob/main/UI-screenshot/screen-capture.webm" type="video/mp4">
+  <source src="https://github.com/manojodela/React-Spense-UI-Designs/blob/main/UI-screenshot/screen-capture.webm" type="video/webm">
 </video>
 
 
