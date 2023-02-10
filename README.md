@@ -10,7 +10,7 @@
 <img src="https://github.com/manojodela/React-Spense-UI-Designs/blob/main/UI-screenshot/price1.png" alt="price1" />
 <h3>---------video------------</h3>
 <video width="600" controls>
-  <source src="https://github.com/manojodela/React-Spense-UI-Designs/blob/main/UI-screenshot/screen-capture.webm" type="video/webm">
+  <source src="https://github.com/manojodela/React-Spense-UI-Designs/blob/main/UI-screenshot/screen-capture.mp4" type="video/mp4">
 </video>
 
 
