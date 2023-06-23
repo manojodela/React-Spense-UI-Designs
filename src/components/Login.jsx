@@ -89,7 +89,7 @@ const Login = () => {
 
                         <div className="py-3">
                             <img src={googleIcon} alt="google" width="20px" />
-                            <a href="" className="text-decoration-none hovered"><strong className="text-black">&nbsp; Sign {!register ? "in" : "up"} with Google</strong></a>
+                            <a href="javascript:void(0)" className="text-decoration-none hovered"><strong className="text-black">&nbsp; Sign {!register ? "in" : "up"} with Google</strong></a>
                         </div>
                         <br />
                         <span>{!register ? "New Spence? " : "Already have an account? "}</span><Link className="text-black hovered" onClick={() => setRegister(!register)}>{!register ? "Create Account" : "Login"}</Link>
